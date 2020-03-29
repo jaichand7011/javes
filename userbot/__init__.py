@@ -75,7 +75,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
 
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/rekcah-pavi/javes")
+    "https://github.com/jaichand7011/javes")
     
 
 TELEGRAPH_SHORT_NAME = os.environ.get(
