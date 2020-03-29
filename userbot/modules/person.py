@@ -71,7 +71,7 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN,LAST
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-    "`Javes: `Hello! Sir\n"
+    "`BHGVIP: `Hello! Sir\n"
    f"I can't allow you to {DEFAULTUSER}'s PM without his permissions please be patient,Thankyou")
     
 
@@ -120,7 +120,7 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                             f"`javes`: I am not going to allow you to spam {DEFAULTUSER}'s PM, Good bye!")
+                             f"`BHGVIP`: I am not going to allow you to spam {DEFAULTUSER}'s PM, Good bye!")
                 
 
                     try:
