@@ -25,7 +25,7 @@ for module_name in ALL_MODULES:
 
 LOGS.info("You are running Javes [v1.2]")
 
-LOGS.info("Congratulations, javes is now running !!\
+LOGS.info("Congratulations, BHGVIP is now running !!\
           \nTest it by typing !javes in any chat.")
 
 if len(argv) not in (1, 3, 4):
